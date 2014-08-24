@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fisio/log4j.xml">
+    <Files>
+      <File FileName="Fisio/Default.aspx" Line="1" Column="1" />
+      <File FileName="Fisio/log4j.xml" Line="1" Column="1" />
+      <File FileName="Fisio/web.config" Line="1" Column="1" />
+      <File FileName="Fisio/Default.aspx.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Default.aspx" Line="1" Column="1" />
+      <File FileName="Fisio/log4j.xml" Line="13" Column="13" />
+      <File FileName="Fisio/web.config" Line="1" Column="1" />
+      <File FileName="Fisio/Default.aspx.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

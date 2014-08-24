@@ -1,0 +1,8 @@
+/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll.mdb
+/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll
+/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll
+/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll.mdb
+/Users/Tonin/Projects/Fisio/Fisio/bin/Iesi.Collections.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/NHibernate.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/log4net.dll
