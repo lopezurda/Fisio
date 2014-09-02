@@ -6,3 +6,8 @@
 /Users/Tonin/Projects/Fisio/Fisio/bin/Iesi.Collections.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/NHibernate.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/log4net.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Mono.Security.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.EntityFramework.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.EntityFrameworkLegacy.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.resources.dll

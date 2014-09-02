@@ -33,13 +33,36 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
     <Reference Include="Iesi.Collections">
-      <HintPath>..\..\PFC\lib\Nhibernate\Iesi.Collections.dll</HintPath>
+      <HintPath>..\lib\Nhibernate\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\..\PFC\lib\Nhibernate\NHibernate.dll</HintPath>
+      <HintPath>..\lib\Nhibernate\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\..\PFC\lib\log4net-1.2.13\log4net.dll</HintPath>
+      <HintPath>..\lib\log4net-1.2.13\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.core.extensions, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.core.interfaces, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.framework.extensions, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.mocks, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.util, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="System.Data" />
+    <Reference Include="Mono.Security">
+      <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql.EntityFramework">
+      <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\Npgsql.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql.EntityFrameworkLegacy">
+      <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\Npgsql.EntityFrameworkLegacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql.resources">
+      <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\es\Npgsql.resources.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +70,10 @@
     <Content Include="web.config" />
     <Content Include="Default.aspx" />
     <Content Include="log4net.config" />
+    <Content Include="Mappings\Cita.hbm.xml" />
+    <Content Include="Mappings\Direccion.hbm.xml" />
+    <Content Include="hibernate.cfg.xml" />
+    <Content Include="test\hibernate.cfg.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -58,6 +85,32 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="test\HibernateTest.cs" />
+    <Compile Include="DAO\Dao.cs" />
+    <Compile Include="DAO\IDao.cs" />
+    <Compile Include="DAO\NHibernateSessionManager.cs" />
+    <Compile Include="Dominio\Cita.cs" />
+    <Compile Include="Dominio\Direccion.cs" />
+    <Compile Include="Dominio\EntidadFinanciadora.cs" />
+    <Compile Include="Dominio\EstadoPaciente.cs" />
+    <Compile Include="Dominio\Estudio.cs" />
+    <Compile Include="Dominio\Estudios.cs" />
+    <Compile Include="Dominio\Fisioterapeuta.cs" />
+    <Compile Include="Dominio\GrupoTratamiento.cs" />
+    <Compile Include="Dominio\HistoriaClinica.cs" />
+    <Compile Include="Dominio\Paciente.cs" />
+    <Compile Include="Dominio\Persona.cs" />
+    <Compile Include="Dominio\Product.cs" />
+    <Compile Include="Dominio\Provincia.cs" />
+    <Compile Include="Dominio\ProyectoContratacion.cs" />
+    <Compile Include="Dominio\Sala.cs" />
+    <Compile Include="Dominio\TipoContrato.cs" />
+    <Compile Include="Dominio\Titulacion.cs" />
+    <Compile Include="Helper\ComboHelper.cs" />
+    <Compile Include="Helper\Utilidad.cs" />
+    <Compile Include="test\CargaInicialTest.cs" />
+    <Compile Include="test\CargaOpcionalDatosTest.cs" />
+    <Compile Include="test\TestUtilidad.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -67,4 +120,28 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="test\" />
+    <Folder Include="DAO\" />
+    <Folder Include="Dominio\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mappings\EntidadFinanciadora.hbm.xml" />
+    <None Include="Mappings\EstadoPaciente.hbm.xml" />
+    <None Include="Mappings\Estudio.hbm.xml" />
+    <None Include="Mappings\Estudios.hbm.xml" />
+    <None Include="Mappings\Fisioterapeuta.hbm.xml" />
+    <None Include="Mappings\GrupoTratamiento.hbm.xml" />
+    <None Include="Mappings\HistoriaClinica.hbm.xml" />
+    <None Include="Mappings\Paciente.hbm.xml" />
+    <None Include="Mappings\Persona.hbm.xml" />
+    <None Include="Mappings\Poduct.hbm.xml" />
+    <None Include="Mappings\Provincia.hbm.xml" />
+    <None Include="Mappings\ProyectoContratacion.hbm.xml" />
+    <None Include="Mappings\Sala.hbm.xml" />
+    <None Include="Mappings\TipoContrato.hbm.xml" />
+    <None Include="Mappings\Titulacion.hbm.xml" />
+  </ItemGroup>
 </Project>
