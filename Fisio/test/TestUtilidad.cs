@@ -1,13 +1,15 @@
 using System;
 using NUnit.Framework;
 using Web.Helper;
+using NUnit.Core;
+using NUnit.Framework;
 
 namespace Test
 {
-	[TestFixture()]
+	[TestFixture]
 	public class TestUtilidad
 	{
-		[Test()]
+		[Test]
 		public void TestParseoFecha ()
 		{
 			string fecha="17/01/1975";

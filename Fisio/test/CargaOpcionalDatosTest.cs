@@ -1,15 +1,16 @@
 using System;
-using NUnit.Framework;
 using NHibernate.Cfg;
 using NHibernate;
 using Fisio.DAO;
 using Fisio.Dominio;
 using log4net;
 using log4net.Config;
+using NUnit.Core;
+using NUnit.Framework;
 
 namespace Test
 {
-	[TestFixture()]
+	[TestFixture]
 	public class CargaOpcionalDatosTest
 	{
 				// Create a logger for use in this class
@@ -19,7 +20,7 @@ namespace Test
 		private NHibernateSessionManager sessionManager;
 		
 		
-		[SetUp()]
+		[SetUp]
 		public void Init()
 		{
 			//Configuración del log4net
@@ -36,7 +37,7 @@ namespace Test
 		}
 
 		
-		[Test()]
+		[Test]
 		public void CargaFisioterapeutas()
 		{
 			Fisioterapeuta fisioTerapeuta=new Fisioterapeuta();
@@ -70,7 +71,7 @@ namespace Test
 		}
 
 		
-		[Test()]
+		[Test]
 		public void CargaPaciente()
 		{
 			Paciente paciente=new Paciente();

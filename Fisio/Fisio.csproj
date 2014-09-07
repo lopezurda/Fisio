@@ -57,13 +57,6 @@
     <Reference Include="Npgsql.resources">
       <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\es\Npgsql.resources.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.core" />
-    <Reference Include="nunit.core.extensions" />
-    <Reference Include="nunit.core.interfaces" />
-    <Reference Include="nunit.framework" />
-    <Reference Include="nunit.framework.extensions" />
-    <Reference Include="nunit.mocks" />
-    <Reference Include="nunit.util" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />

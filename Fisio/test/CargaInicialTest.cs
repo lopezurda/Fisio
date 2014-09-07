@@ -1,15 +1,16 @@
 using System;
-using NUnit.Framework;
 using NHibernate.Cfg;
 using NHibernate;
 using Fisio.DAO;
 using Fisio.Dominio;
 using log4net;
 using log4net.Config;
+using NUnit.Core;
+using NUnit.Framework;
 
 namespace Test
 {
-	[TestFixture()]
+	[TestFixture]
 	public class CargaInicialTest
 	{
 	// Create a logger for use in this class
@@ -19,7 +20,7 @@ namespace Test
 		private NHibernateSessionManager sessionManager;
 		
 		
-		[SetUp()]
+		[SetUp]
 		public void Init()
 		{
 //			//Configuración del log4net
@@ -40,7 +41,7 @@ namespace Test
 			log.Info ("Configuracion hibernate finalizada");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaGruposTratamiento ()
 		{
 			log.Info("Creando datos de grupos de tratamiento....");
@@ -61,7 +62,7 @@ namespace Test
 
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaEstudios ()
 		{
 			log.Info("Creando datos de estudios....");
@@ -85,7 +86,7 @@ namespace Test
 			log.Info("Datos de estudios creados OK....");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaTitulaciones()
 		{
 			log.Info("Creando datos de titulaciones....");
@@ -101,7 +102,7 @@ namespace Test
 			log.Info("Datos de titulaciones creados OK....");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaTiposContrato()
 		{
 			log.Info("Creando datos de titulaciones....");
@@ -117,7 +118,7 @@ namespace Test
 			log.Info("Datos de titulaciones creados OK....");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaEstadoPaciente()
 		{
 			log.Info("Creando estado de paciente....");
@@ -141,7 +142,7 @@ namespace Test
 			log.Info("Datos de estado de paciente creados OK....");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaGruposTratamientosEstudios()
 		{
 			log.Info("Creando grupos de tratamientos de estudios....");
@@ -164,7 +165,7 @@ namespace Test
 			log.Info("Datos de grupos de tratamiento de estudios creados OK....");
 		}
 
-		[Test()]
+		[Test]
 		public void CargaEntidadesFinanciadoras()
 		{
 			log.Info("Creando entidades financiadoras ....");
@@ -180,7 +181,7 @@ namespace Test
 			log.Info("Datos de entidades financiadoras creados OK....");
 		}
 		
-		[Test()]
+		[Test]
 		public void CargaProyectosContratacion()
 		{
 			log.Info("Creando proyectos de contratación ....");
@@ -214,7 +215,7 @@ namespace Test
 			log.Info("Datos de proyectos de contratación creados OK....");
 		}	
 
-		[Test()]
+		[Test]
 		public void CargaSalas()
 		{
 			log.Info("Carga inicial de salas....");

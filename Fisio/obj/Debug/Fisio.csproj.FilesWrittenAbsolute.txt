@@ -18,10 +18,6 @@
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.Mappings.Titulacion.hbm.xml
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.hibernate.cfg.xml
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.log4net.config
-/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll.mdb
-/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll
-/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll
-/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll.mdb
 /Users/Tonin/Projects/Fisio/Fisio/bin/Iesi.Collections.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/NHibernate.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/log4net.dll
@@ -30,4 +26,10 @@
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.EntityFrameworkLegacy.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.resources.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/hibernate.cfg.xml
+/Users/Tonin/Projects/Fisio/Fisio/bin/NSubstitute.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.core.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.util.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.core.interfaces.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.uiexception.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.uikit.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/Rhino.Mocks.dll
