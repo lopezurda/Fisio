@@ -7,12 +7,12 @@ using Fisio.Dominio;
 using log4net;
 using log4net.Config;
 
-namespace Web
+namespace Test
 {
 	[TestFixture()]
 	public class CargaInicialTest
 	{
-				// Create a logger for use in this class
+	// Create a logger for use in this class
 		private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 		
 		private Configuration cfg;
@@ -22,15 +22,20 @@ namespace Web
 		[SetUp()]
 		public void Init()
 		{
-			//Configuración del log4net
-			BasicConfigurator.Configure();
-			log.Info("Inicio carga inicial de BBDD....");
-			log.Info ("Iniciando configuracion hibernate");	
-			cfg = new Configuration();
-			
-            cfg.Configure("hibernate.cfg.xml");
-            cfg.AddAssembly("Web");
-			
+//			//Configuración del log4net
+//			BasicConfigurator.Configure();
+//			log.Info("Inicio carga inicial de BBDD....");
+//			log.Info ("Iniciando configuracion hibernate");	
+//			cfg = new Configuration();
+//			
+//            cfg.Configure("../hibernate.cfg.xml");
+//            cfg.AddAssembly("Fisio");
+
+//			BasicConfigurator.Configure();
+//			cfg = new Configuration();
+//			cfg.Configure("../hibernate.cfg.xml");
+//			cfg.AddAssembly("Fisio");
+
 			sessionManager = new NHibernateSessionManager ();
 			log.Info ("Configuracion hibernate finalizada");
 		}

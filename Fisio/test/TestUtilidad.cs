@@ -2,7 +2,7 @@ using System;
 using NUnit.Framework;
 using Web.Helper;
 
-namespace Web
+namespace Test
 {
 	[TestFixture()]
 	public class TestUtilidad

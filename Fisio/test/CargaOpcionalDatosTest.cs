@@ -7,7 +7,7 @@ using Fisio.Dominio;
 using log4net;
 using log4net.Config;
 
-namespace Web
+namespace Test
 {
 	[TestFixture()]
 	public class CargaOpcionalDatosTest

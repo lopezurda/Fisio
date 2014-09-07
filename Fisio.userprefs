@@ -1,19 +1,36 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fisio/log4j.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fisio/test/hibernate.cfg.xml">
     <Files>
-      <File FileName="Fisio/Default.aspx" Line="1" Column="1" />
-      <File FileName="Fisio/log4j.xml" Line="1" Column="1" />
-      <File FileName="Fisio/web.config" Line="1" Column="1" />
+      <File FileName="Fisio/DAO/NHibernateSessionManager.cs" Line="1" Column="1" />
+      <File FileName="Fisio/hibernate.cfg.xml" Line="1" Column="1" />
+      <File FileName="Fisio/log4net.config" Line="1" Column="1" />
+      <File FileName="Fisio/test/HibernateTest.cs" Line="1" Column="1" />
+      <File FileName="../../Documents/CargaInicialTest.cs" Line="1" Column="1" />
       <File FileName="Fisio/Default.aspx.cs" Line="1" Column="1" />
-      <File FileName="Fisio/Default.aspx" Line="1" Column="1" />
-      <File FileName="Fisio/log4j.xml" Line="13" Column="13" />
       <File FileName="Fisio/web.config" Line="1" Column="1" />
-      <File FileName="Fisio/Default.aspx.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Mappings/Cita.hbm.xml" Line="1" Column="1" />
+      <File FileName="Fisio/Mappings/Direccion.hbm.xml" Line="1" Column="1" />
+      <File FileName="Fisio/Dominio/Cita.cs" Line="1" Column="1" />
+      <File FileName="Fisio/DAO/Dao.cs" Line="1" Column="1" />
+      <File FileName="Fisio/DAO/IDao.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Dominio/Direccion.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Dominio/EntidadFinanciadora.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Helper/ComboHelper.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Helper/Utilidad.cs" Line="1" Column="1" />
+      <File FileName="Fisio/Mappings/EntidadFinanciadora.hbm.xml" Line="1" Column="1" />
+      <File FileName="Fisio/test/CargaInicialTest.cs" Line="1" Column="1" />
+      <File FileName="Fisio/test/hibernate.cfg.xml" Line="1" Column="1" />
+      <File FileName="Fisio/Dominio/Estudio.cs" Line="1" Column="1" />
+      <File FileName="Fisio/test/CargaOpcionalDatosTest.cs" Line="1" Column="1" />
+      <File FileName="Fisio/test/TestUtilidad.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Tonin/Projects/Fisio/Fisio/test/HibernateTest.cs" line="40" column="1" />
+      <Breakpoint file="/Users/Tonin/Projects/Fisio/Fisio/test/HibernateTest.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
