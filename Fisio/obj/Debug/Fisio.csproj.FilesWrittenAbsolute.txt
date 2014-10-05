@@ -18,6 +18,10 @@
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.Mappings.Titulacion.hbm.xml
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.hibernate.cfg.xml
 /Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.log4net.config
+/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll.mdb
+/Users/Tonin/Projects/Fisio/Fisio/bin/Fisio.dll
+/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll
+/Users/Tonin/Projects/Fisio/Fisio/obj/Debug/Fisio.dll.mdb
 /Users/Tonin/Projects/Fisio/Fisio/bin/Iesi.Collections.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/NHibernate.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/log4net.dll
@@ -26,3 +30,5 @@
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.EntityFrameworkLegacy.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.resources.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.framework.dll
+/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.mocks.dll

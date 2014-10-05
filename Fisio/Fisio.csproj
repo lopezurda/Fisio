@@ -57,9 +57,12 @@
     <Reference Include="Npgsql.resources">
       <HintPath>..\lib\Npgsql-2.2.0-rc2-net40\es\Npgsql.resources.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.core, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
-    <Reference Include="nunit.core.interfaces, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
-    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\lib\nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.mocks">
+      <HintPath>..\lib\nunit\nunit.mocks.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -76,7 +79,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="test\HibernateTest.cs" />
     <Compile Include="DAO\Dao.cs" />
     <Compile Include="DAO\IDao.cs" />
     <Compile Include="DAO\NHibernateSessionManager.cs" />
@@ -99,9 +101,10 @@
     <Compile Include="Dominio\Titulacion.cs" />
     <Compile Include="Helper\ComboHelper.cs" />
     <Compile Include="Helper\Utilidad.cs" />
-    <Compile Include="test\CargaInicialTest.cs" />
-    <Compile Include="test\CargaOpcionalDatosTest.cs" />
-    <Compile Include="test\TestUtilidad.cs" />
+    <Compile Include="Test\HibernateTest.cs" />
+    <Compile Include="Test\CargaInicialTest.cs" />
+    <Compile Include="Test\CargaOpcionalDatosTest.cs" />
+    <Compile Include="Test\TestUtilidad.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -112,11 +115,11 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <Folder Include="test\" />
     <Folder Include="DAO\" />
     <Folder Include="Dominio\" />
     <Folder Include="Helper\" />
     <Folder Include="Mappings\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Persona.hbm.xml" />
