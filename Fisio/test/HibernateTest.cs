@@ -7,12 +7,10 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using Fisio.DAO;
 using Fisio.Dominio;
-using NUnit.Core;
-using NUnit.Framework;
 
 namespace FisioTest
 {
-	[TestFixture()]
+	[TestFixture]
 	public class HibernateTest
 	{
 		// Create a logger for use in this class
@@ -20,7 +18,7 @@ namespace FisioTest
 
 		private Configuration cfg;
 		
-		[SetUp()]
+		[SetUp]
 		public void Init()
 		{
 			//Configuración del log4net
@@ -31,7 +29,7 @@ namespace FisioTest
 		}
 		
 		
-		[Test()]
+		[Test]
 		public void CreateSQLSchema ()
 		{
 
@@ -64,7 +62,7 @@ namespace FisioTest
 
 		}
 		
-		[Test()]
+		[Test]
 		public void TestNamedQuery ()
 		{
 			NHibernateSessionManager sessionManager = new NHibernateSessionManager();

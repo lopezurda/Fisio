@@ -26,10 +26,3 @@
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.EntityFrameworkLegacy.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.dll
 /Users/Tonin/Projects/Fisio/Fisio/bin/Npgsql.resources.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/NSubstitute.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.core.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.util.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.core.interfaces.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.uiexception.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/nunit.uikit.dll
-/Users/Tonin/Projects/Fisio/Fisio/bin/Rhino.Mocks.dll

@@ -3,22 +3,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Fisio/test/HibernateTest.cs">
     <Files>
       <File FileName="Fisio/test/CargaInicialTest.cs" Line="1" Column="1" />
-      <File FileName="Fisio/test/HibernateTest.cs" Line="34" Column="34" />
-      <File FileName="Fisio/web.config" Line="17" Column="17" />
-      <File FileName="Fisio/DAO/NHibernateSessionManager.cs" Line="45" Column="45" />
-      <File FileName="Fisio/hibernate.cfg.xml" Line="116" Column="116" />
-      <File FileName="Fisio/test/CargaOpcionalDatosTest.cs" Line="52" Column="52" />
+      <File FileName="Fisio/test/HibernateTest.cs" Line="3" Column="3" />
+      <File FileName="Fisio/DAO/NHibernateSessionManager.cs" Line="1" Column="1" />
+      <File FileName="Fisio/hibernate.cfg.xml" Line="1" Column="1" />
+      <File FileName="Fisio/test/CargaOpcionalDatosTest.cs" Line="1" Column="1" />
+      <File FileName="Fisio/test/TestUtilidad.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State selected="True" />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Tonin/Projects/Fisio/Fisio/test/HibernateTest.cs" line="24" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
